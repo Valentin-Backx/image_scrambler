@@ -1,5 +1,5 @@
 # image_scrambler
-"encrypts" an image using random numpy permutations
-Displays the shuffled image, then "decodes" it using the reversed permutation, then displays the decyphered image
+Hashes an image using random numpy permutations (salt)
+Displays the shuffled image, then decodes it using the salt, then displays the original image
 #Usage
 example: python shuffleImage.py Gabriella.png
